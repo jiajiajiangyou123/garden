@@ -1,0 +1,189 @@
+{extend name="common/base" /}
+{block name="pjax_container"}
+<div class="layui-body">
+    <!-- 内容主体区域 -->
+    <div style="padding: 15px;">
+
+
+        <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+            <legend>菜单管理</legend>
+        </fieldset>
+
+        <a href="/admin/menu/add"  class="layui-btn layui-btn-normal" id="insert">新增</a>
+        <button class="layui-btn layui-btn-danger">删除</button>
+        <button class="layui-btn layui-btn-primary top-btn-right">返回</button>
+        <hr class="layui-bg-orange">
+
+        <div class="">
+
+            <table class="layui-table" lay-even="" lay-skin="row">
+                <colgroup>
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="200">
+
+                    <col>
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>模块</th>
+                    <th>控制器</th>
+                    <th>方法</th>
+                    <th>是否导航</th>
+                    <th>图标</th>
+                    <th>排序</th>
+                    <th>创建时间</th>
+                    <th>更新时间</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {if condition="$menuList"}
+                {volist name="menuList" id="vo"}
+                <tr>
+                    <td>{vo.id}</td>
+                    <td>{vo.name}</td>
+                    <td>{vo.module}</td>
+                    <td>{vo.controller}</td>
+                    <td>{vo.action}</td>
+                    <td>{vo.is_menu}</td>
+                    <td>{vo.icon}</td>
+                    <td>{vo.sort}</td>
+                    <td>{vo.create_time}</td>
+                    <td>{vo.update_time}</td>
+                    <td>{vo.status}</td>
+                    <td>
+                        <a href="javascript:;" class="layui-btn edit-info" data-id="{$vo.id}">编辑</a>
+                        <a href="javascript:;" class="layui-btn delete-info" data-id="{$vo.id}">删除</a>
+                    </td>
+                </tr>
+                {/volist}
+                {else/}
+                <tr style="text-align: center">
+                    <td colspan="12">没有任何数据。。。</td>
+                </tr>
+                {/if}
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="layui-body" id="form_body" style="display: none" lay-filter="example">
+    <form class="layui-form" action="post" style="width: 100%;margin-top: 15px"  lay-filter="icon">
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">名称</label>
+                <div class="layui-input-inline">
+                    <input type="tel" name="name" lay-verify="required" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">模块</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="module" lay-verify="required" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">控制器</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="controller" lay-verify="required" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">方法</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="action" lay-verify="required" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">图标</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="icon" lay-verify="required"  id="icon_choose" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">排序</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="sort" lay-verify="required" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">是否导航</label>
+                <div class="layui-input-inline">
+                    <input type="checkbox" checked="" name="is_menu" lay-skin="switch" lay-filter="switchTest" lay-text="是|否">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="layui-form-item" style="margin-left: 20%">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<script>
+    var index = 0;
+    layui.use(['form', 'layedit', 'laydate'], function () {
+        var form = layui.form
+            , layer = layui.layer
+            , layedit = layui.layedit
+            , laydate = layui.laydate
+            , $ = layui.jquery;
+
+        function edit(id) {
+            var form_html = $("#form_body").html();
+            index = layer.open({
+                title: '添加菜单'
+                , area: '750px;'
+                , shade: 0.8
+                , type: 1
+                ,anim: 1
+                , id: 'LAY_layuipro' //设定一个id，防止重复弹出
+                , btn: false
+                , btnAlign: 'c'
+                , moveType: 1 //拖拽模式，0或者1
+                , content: form_html
+                , btn1: function (layero) {
+                    var d = {};
+                    var t = $('form').serializeArray();
+                    $.each(t, function () {
+                        d[this.name] = this.value;
+                    });
+                }
+            });
+
+            form.render();
+        }
+
+        $(document).on('click',".edit-info",function () {
+            var id = this.attr('data-id');
+            edit(id);
+        });
+
+    });
+</script>
+{/block}

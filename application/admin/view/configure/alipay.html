@@ -1,0 +1,121 @@
+
+    {block name="admin_load"}{include file="common/admin_load"}{/block}
+    <!-- 内容主体区域 -->
+    <div style="padding: 15px;">
+
+
+        <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+            <legend>支付配置管理</legend>
+        </fieldset>
+
+        <hr class="layui-bg-orange">
+        <button class="layui-btn layui-btn-normal">支付宝API配置</button>
+    </div>
+    <div class="form-content layui-col-md9 layui-col-md-offset1">
+        <form class="layui-form" action="" style="margin: 30px">
+            <div class="layui-form-item">
+                <label class="layui-form-label">名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="name" lay-verify="required" value="{$alipay['name']}"  autocomplete="off" placeholder="请输入名称" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">支付宝公钥</label>
+                <div class="layui-input-block">
+                    <input type="text" name="alipay_public_key" value="{$alipay['alipay_public_key']}" lay-verify="required" placeholder="请输入支付宝公钥" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">支付宝私钥</label>
+                <div class="layui-input-block">
+                    <input type="text" name="alipay_private_key" value="{$alipay['alipay_private_key']}" lay-verify="required" placeholder="请输入支付宝私钥" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">支付宝APPID</label>
+                <div class="layui-input-block">
+                    <input type="text" name="alipay_app_id" value="{$alipay['alipay_app_id']}" lay-verify="required" placeholder="请输入支付宝APPID" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">编码</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="alipay_charset" value="GBK" title="GBK" {if condition="$alipay['alipay_charset'] == 'GBK'"}checked{/if} >
+                    <input type="radio" name="alipay_charset"  value="UTF8" title="UTF8" {if condition="$alipay['alipay_charset'] == 'UTF8'"}checked{/if} >
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">格式</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="alipay_format" value="json" title="json" {if condition="$alipay['alipay_format'] == 'json'"}checked{/if} >
+                    <input type="radio" name="alipay_format" value="xml" title="xml" {if condition="$alipay['alipay_format'] == 'xml'"}checked{/if} >
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">加密方式</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="alipay_sign_type" value="RSA2" title="RSA2" {if condition="$alipay['alipay_sign_type'] == 'RSA2'"}checked{/if} >
+                    <input type="radio" name="alipay_sign_type" value="other" title="other" {if condition="$alipay['alipay_sign_type'] == 'other'"}checked{/if}>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    layui.use(['form','layedit','layer'],function () {
+        var layer = layui.layer,
+            form = layui.form,
+            layedit = layui.layedit;
+        //创建一个编辑器
+        var editIndex = layedit.build('LAY_demo_editor');
+
+        //自定义验证规则
+        form.verify({
+            title: function(value){
+                if(value.length < 5){
+                    return '标题至少得5个字符啊';
+                }
+            }
+            ,pass: [/(.+){6,12}$/, '密码必须6到12位']
+            ,content: function(value){
+                layedit.sync(editIndex);
+            }
+        });
+        form.render();
+
+        form.on('submit(demo1)', function(data){
+            var insertData = data.field;
+
+            var ajaxOp = {};
+            ajaxOp.url = 'aliEdit?id=' + "{$alipay['id']}";
+            ajaxOp.type = "POST";
+            ajaxOp.dateType = "JSON";
+            ajaxOp.data = insertData;
+            ajaxOp.success = function (res) {
+                res = JSON.parse(res);
+
+                if (res.state == 1) {
+                    layer.msg(res.info);
+                    setTimeout(function () {
+//                        layer.close(index);
+                        window.location.reload();
+                    },1500)
+                } else {
+                    layer.msg(res.info);
+                    return false; //阻止表单跳转。如果需要表单跳转，去掉这段即可。
+                }
+            }
+            $.ajax(ajaxOp);
+            return false;
+        });
+    });
+</script>
