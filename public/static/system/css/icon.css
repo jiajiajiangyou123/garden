@@ -1,0 +1,42 @@
+.icon_list {
+    padding: 7.5px;
+    overflow: hidden;
+    background: #fff;
+    font-size: 12px;
+}
+
+.icon_list span {
+    width: 90px;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    cursor: pointer;
+    background: #f8f8f8;
+    height: 80px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 7.5px;
+    background: #fff;
+    position: relative;
+}
+
+.icon_list span i {
+    width: 50px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.icon_list span em {
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.icon_list .cur {
+    border: 1px solid #30c76c;
+    color: #30c76c;
+}
