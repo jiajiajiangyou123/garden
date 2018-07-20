@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"F:\www\php\Garden\public/../application/admin\view\article\index.html";i:1531136144;s:63:"F:\www\php\Garden\application\admin\view\common\admin_load.html";i:1531135603;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"F:\www\php\Garden\public/../application/admin\view\article\index.html";i:1531217726;s:63:"F:\www\php\Garden\application\admin\view\common\admin_load.html";i:1531135603;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,9 +21,19 @@
 
 </head>
 <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+<style>
+    .layui-table-cell{
+        height: 100px;
+        line-height: 100px;
+    }
+    .laytable-cell-1-logo{
+        width: 130px;
+    }
+</style>
 <blockquote class="layui-elem-quote">
     文章列表
     <a href="/admin/article/add" class="insert col-lg-offset-10"><span class="glyphicon glyphicon-plus"></span></a>
+    <a href="/admin/article/add" style="padding-right: 15px;color: red;font-size: 22px"><span class="fa fa-times"></span></a>
 </blockquote>
 
 
@@ -49,6 +59,10 @@
     <a class="layui-btn layui-btn-xs" lay-event="check">审核</a>
     {{#  } }}
 </script>
+<script type="text/html" id="imgTpl">
+    <!-- 这里的 checked 的状态只是演示 -->
+    <img src="/static/{{d.logo}}" width="100px" height="100px" alt="">
+</script>
 
 <script>
     layui.use('table', function(){
@@ -65,7 +79,7 @@
                 ,{type: 'checkbox'}
                 ,{field:'id', title:'ID', unresize: true, sort: true}
                 ,{field:'title', title:'标题', templet: '#usernameTpl'}
-                ,{field:'logo', title:'图片'}
+                ,{field:'logo', title:'图片',height:100,width:120, toolbar: '#imgTpl'}
                 ,{field:'author', title: '作者'}
                 ,{field:'content', title: '内容'}
                 ,{field:'status', title:'状态', templet: '#switchTpl', unresize: true}

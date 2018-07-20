@@ -1,15 +1,21 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"F:\www\php\Garden\public/../application/admin\view\login\index.html";i:1530234600;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"F:\www\php\Garden\public/../application/admin\view\login\index.html";i:1532081454;}*/ ?>
 <!DOCTYPE html>
-<html lang="en" >
+<!-- saved from url=(0049)http://www.jq22.com/demo/jquerybaidu201806240121/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<head>
-    <meta charset="UTF-8">
     <title>后台登录</title>
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-
-    <!--<link rel="stylesheet" href="/static/system/css/login.css">-->
-
-    <link rel="stylesheet" type="text/css" href="/static/system/css/simple.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            overflow: hidden;
+        }
+    </style>
+    <link href="/static/system/files/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/system/files/style.css">
+    <link rel="stylesheet" href="/static/system/files/style-search.css" media="screen" type="text/css">
     <link rel="stylesheet" type="text/css" href="/static/layui/css/layui.css" />
     <link rel="stylesheet" type="text/css" href="/static/system/css/global.css" />
     <!--<link rel="stylesheet" type="text/css" href="/static/system/css/animate.css" />-->
@@ -18,25 +24,19 @@
 
     <script type="text/javascript" src="/static/system/js/jquery.min.js"></script>
     <script type="text/javascript" src="/static/layui/layui.all.js"></script>
-    <!--<script type="text/javascript" src="/static/system/js/global.js"></script>-->
-
+    <script>
+        function c(){
+            location.href="http://www.baidu.com/s?wd="+$("#input").val();
+        }
+    </script>
 </head>
+<body style="">
+<canvas id="canvas" width="1920" height="1080"> 您的浏览器不支持canvas标签，请您更换浏览器 </canvas>
+<script src="/static/system/files/word.js"></script>
 
-<body>
-
-<div id="canvas">
-    <div id="Banner" class="layui-carousel">
-        <div carousel-item>
-            <div><a class="coverBg"
-                    style="background-image: url(/static/system/img/f9fa4d5b4fc10ba2209f2489bd0e7e15.jpg);"></a></div>
-            <div><a class="coverBg"
-                    style="background-image: url(/static/system/img/44661ede2d8c7e19be8ff811841f24be.jpg);"></a></div>
-
-        </div>
-    </div>
     <div id="login">
         <h1>
-            <strong><span class="en-font">客户</span>管理系统后台</strong>
+            <strong><span class="en-font"></span>后台管理系统</strong>
             <em class="en-font">Manager System</em>
         </h1>
         <form id="UserForm">
@@ -65,80 +65,67 @@
         <div class="copy"></div>
     </div>
 
-    <div class="snow-container">
-        <div class="snow foreground"></div>
-        <div class="snow foreground layered"></div>
-        <div class="snow middleground"></div>
-        <div class="snow middleground layered"></div>
-        <div class="snow background"></div>
-        <div class="snow background layered"></div>
-    </div>
-</div>
+</span> </div>
+<!--<script src="/static/system/files/index.js"></script>-->
 
-<script src='/static/system/js/TweenMax.min.js'></script>
-<script src='/static/system/js/jquery.min.js'></script>
-<!--<script  src="/static/system/js/login.js"></script>-->
+<script type="text/javascript">
+    layui.use(['layer', 'carousel'], function () {
+        'use strict';
+        var layer = layui.layer;
 
-    <script type="text/javascript">
-        layui.use(['layer', 'carousel'], function () {
-            'use strict';
-            var layer = layui.layer;
-
-            var carousel = layui.carousel;
-            //建造实例
-            carousel.render({
-                elem: '#Banner'
-                , width: '100%' //设置容器宽度
-                , height: '100%'
-                , arrow: 'none' //始终显示箭头
-                , anim: 'fade' //切换动画方式
-                ,interval:2000
-            });
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#Banner'
+            , width: '100%' //设置容器宽度
+            , height: '100%'
+            , arrow: 'none' //始终显示箭头
+            , anim: 'fade' //切换动画方式
+            ,interval:2000
         });
+    });
 
-        $(window).resize(function () {
-            var wh = $(window).height();
-            $('#canvas').height(wh);
-        }).trigger('resize')
+    $(window).resize(function () {
+        var wh = $(window).height();
+        $('#canvas').height(wh);
+    }).trigger('resize')
 
-        $(function () {
-            $("#LoginU").on('click', function () {
-                var setData = [];
-                var username = $.trim($("#username").val());
-                var password = $.trim($("#password").val());
-                var code = $.trim($("#code").val());
+    $(function () {
+        $("#LoginU").on('click', function () {
+            var setData = [];
+            var username = $.trim($("#username").val());
+            var password = $.trim($("#password").val());
+            var code = $.trim($("#code").val());
 
-                if (!username || !password || !code) {
-                    layer.msg("请将登录信息填写完整");
-                    return false;
+            if (!username || !password || !code) {
+                layer.msg("请将登录信息填写完整");
+                return false;
+            }
+            setData.push({name: "username", value: username});
+            setData.push({name: "password", value: password});
+            setData.push({name: "captcha", value: code});
+
+            var ajaxOption = {};
+            ajaxOption.url = "/admin/login/checkLogin";
+            ajaxOption.type = "POST";
+            ajaxOption.dataType = "JSON";
+            ajaxOption.data = setData;
+            ajaxOption.success = function (res) {
+                if (res.state == 1) {
+                    layer.msg(res.info);
+                    setTimeout(function () {
+                        window.location.href = res.url;
+                    },1000)
+                } else {
+                    layer.msg(res.info);
                 }
-                setData.push({name: "username", value: username});
-                setData.push({name: "password", value: password});
-                setData.push({name: "captcha", value: code});
-
-                var ajaxOption = {};
-                ajaxOption.url = "/admin/login/checkLogin";
-                ajaxOption.type = "POST";
-                ajaxOption.dataType = "JSON";
-                ajaxOption.data = setData;
-                ajaxOption.success = function (res) {
-                    if (res.state == 1) {
-                        layer.msg(res.info);
-                        setTimeout(function () {
-                            window.location.href = res.url;
-                        },1000)
-                    } else {
-                        layer.msg(res.info);
-                    }
-                };
-                ajaxOption.error = function () {
-                };
-                $.ajax(ajaxOption);
-            });
+            };
+            ajaxOption.error = function () {
+            };
+            $.ajax(ajaxOption);
         });
+    });
 
 
-    </script>
-</body>
-
-</html>
+</script>
+</body></html>

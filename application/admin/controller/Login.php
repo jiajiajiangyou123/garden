@@ -103,4 +103,8 @@ class Login extends Controller
 
         $this->redirect('/admin/login');
     }
+    public function index1()
+    {
+        return $this->fetch();
+    }
 }
