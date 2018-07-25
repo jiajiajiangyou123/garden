@@ -1,0 +1,4514 @@
+---------------------------------------------------------------
+[ 2018-07-25T08:52:10+08:00 ] 192.168.0.18 GET /admin/test/test1
+[ info ] garden.wj.cn/admin/test/test1 [运行时间：10.225427s][吞吐率：0.10req/s] [内存消耗：3,076.55kb] [文件加载：46]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'test1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Test->test1[ F:\www\php\Garden\application\admin\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T08:52:11+08:00 ] 192.168.0.18 GET /favicon.ico
+[ info ] garden.wj.cn/favicon.ico [运行时间：0.649642s][吞吐率：1.54req/s] [内存消耗：1,565.16kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/admin/test/test1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T08:53:10+08:00 ] 192.168.0.18 GET /admin/test/test1
+[ info ] garden.wj.cn/admin/test/test1 [运行时间：0.286353s][吞吐率：3.49req/s] [内存消耗：3,134.23kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'test1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Test->test1[ F:\www\php\Garden\application\admin\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]register_tick_function(): Invalid tick callback 'getNewMesg' passed[F:\www\php\Garden\application\admin\controller\Test.php:47]
+---------------------------------------------------------------
+[ 2018-07-25T08:54:12+08:00 ] 192.168.0.18 GET /admin/test/test1
+[ info ] garden.wj.cn/admin/test/test1 [运行时间：0.082509s][吞吐率：12.12req/s] [内存消耗：2,969.55kb] [文件加载：44]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'test1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Test->test1[ F:\www\php\Garden\application\admin\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T08:54:14+08:00 ] 192.168.0.18 GET /admin/test/test1
+[ info ] garden.wj.cn/admin/test/test1 [运行时间：0.034644s][吞吐率：28.87req/s] [内存消耗：2,969.55kb] [文件加载：44]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'test1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Test->test1[ F:\www\php\Garden\application\admin\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T09:04:20+08:00 ] 192.168.0.18 GET /admin/test/test1
+[ info ] garden.wj.cn/admin/test/test1 [运行时间：0.050230s][吞吐率：19.91req/s] [内存消耗：2,970.57kb] [文件加载：44]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'test1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Test->test1[ F:\www\php\Garden\application\admin\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:09:22+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.030959s][吞吐率：32.30req/s] [内存消耗：1,520.80kb] [文件加载：32]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:16:46+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.024176s][吞吐率：41.36req/s] [内存消耗：1,521.41kb] [文件加载：32]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:16:48+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.033223s][吞吐率：30.10req/s] [内存消耗：1,521.41kb] [文件加载：32]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:10+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.029413s][吞吐率：34.00req/s] [内存消耗：1,580.72kb] [文件加载：36]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::fetch()[F:\www\php\Garden\application\index\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2018-07-25T17:17:21+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.056216s][吞吐率：17.79req/s] [内存消耗：2,011.68kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/i/mon-spr.png
+[ info ] garden.wj.cn/static/web/i/mon-spr.png [运行时间：0.023459s][吞吐率：42.63req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/i/2vm.png
+[ info ] garden.wj.cn/static/web/i/2vm.png [运行时间：0.033239s][吞吐率：30.09req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/i/cross2.png
+[ info ] garden.wj.cn/static/web/i/cross2.png [运行时间：0.032437s][吞吐率：30.83req/s] [内存消耗：1,567.01kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD [运行时间：0.023091s][吞吐率：43.31req/s] [内存消耗：1,566.91kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.027257s][吞吐率：36.69req/s] [内存消耗：1,566.87kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/datepng.png
+[ info ] garden.wj.cn/static/web/images/datepng.png [运行时间：0.031550s][吞吐率：31.70req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/lanmbq.png
+[ info ] garden.wj.cn/static/web/images/lanmbq.png [运行时间：0.034198s][吞吐率：29.24req/s] [内存消耗：1,566.98kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/ico_04_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_04_1.jpg [运行时间：0.028025s][吞吐率：35.68req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/ico_07_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_07_1.jpg [运行时间：0.028334s][吞吐率：35.29req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/newsbg02.png
+[ info ] garden.wj.cn/static/web/images/newsbg02.png [运行时间：0.024720s][吞吐率：40.45req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/newsbg03.png
+[ info ] garden.wj.cn/static/web/images/newsbg03.png [运行时间：0.024967s][吞吐率：40.05req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/newsbg04.png
+[ info ] garden.wj.cn/static/web/images/newsbg04.png [运行时间：0.026101s][吞吐率：38.31req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/ico_06_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_06_1.jpg [运行时间：0.079755s][吞吐率：12.54req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/ph2.png
+[ info ] garden.wj.cn/static/web/images/ph2.png [运行时间：0.095621s][吞吐率：10.46req/s] [内存消耗：1,567.02kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/buju.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/silde-nav.png
+[ info ] garden.wj.cn/static/web/images/silde-nav.png [运行时间：0.024655s][吞吐率：40.56req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/newsbg01.png
+[ info ] garden.wj.cn/static/web/images/newsbg01.png [运行时间：0.027346s][吞吐率：36.57req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:22+08:00 ] 192.168.0.18 GET /static/web/images/ico_05_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_05_1.jpg [运行时间：0.064037s][吞吐率：15.62req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510242',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:50+08:00 ] 192.168.0.18 GET /static/web/i/cross2.png
+[ info ] garden.wj.cn/static/web/i/cross2.png [运行时间：0.025934s][吞吐率：38.56req/s] [内存消耗：1,567.01kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510271',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:50+08:00 ] 192.168.0.18 GET /static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.023620s][吞吐率：42.34req/s] [内存消耗：1,566.87kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510271',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:50+08:00 ] 192.168.0.18 GET /static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD [运行时间：0.026741s][吞吐率：37.40req/s] [内存消耗：1,566.91kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510271',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:50+08:00 ] 192.168.0.18 GET /static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.025308s][吞吐率：39.51req/s] [内存消耗：1,566.87kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510271',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.032959s][吞吐率：30.34req/s] [内存消耗：1,847.13kb] [文件加载：39]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510271',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/i/mon-spr.png
+[ info ] garden.wj.cn/static/web/i/mon-spr.png [运行时间：0.027890s][吞吐率：35.86req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/i/2vm.png
+[ info ] garden.wj.cn/static/web/i/2vm.png [运行时间：0.029048s][吞吐率：34.43req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/i/cross2.png
+[ info ] garden.wj.cn/static/web/i/cross2.png [运行时间：0.021960s][吞吐率：45.54req/s] [内存消耗：1,567.01kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD [运行时间：0.023905s][吞吐率：41.83req/s] [内存消耗：1,566.91kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.027834s][吞吐率：35.93req/s] [内存消耗：1,566.87kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/ph2.png
+[ info ] garden.wj.cn/static/web/images/ph2.png [运行时间：0.030271s][吞吐率：33.03req/s] [内存消耗：1,567.02kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/buju.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/ico_04_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_04_1.jpg [运行时间：0.031456s][吞吐率：31.79req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/datepng.png
+[ info ] garden.wj.cn/static/web/images/datepng.png [运行时间：0.033410s][吞吐率：29.93req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/ico_07_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_07_1.jpg [运行时间：0.038150s][吞吐率：26.21req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/lanmbq.png
+[ info ] garden.wj.cn/static/web/images/lanmbq.png [运行时间：0.036748s][吞吐率：27.21req/s] [内存消耗：1,566.98kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/newsbg03.png
+[ info ] garden.wj.cn/static/web/images/newsbg03.png [运行时间：0.034597s][吞吐率：28.90req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/ico_05_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_05_1.jpg [运行时间：0.044398s][吞吐率：22.52req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/newsbg02.png
+[ info ] garden.wj.cn/static/web/images/newsbg02.png [运行时间：0.039358s][吞吐率：25.41req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/silde-nav.png
+[ info ] garden.wj.cn/static/web/images/silde-nav.png [运行时间：0.027261s][吞吐率：36.68req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/ico_06_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_06_1.jpg [运行时间：0.068796s][吞吐率：14.54req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/newsbg04.png
+[ info ] garden.wj.cn/static/web/images/newsbg04.png [运行时间：0.064078s][吞吐率：15.61req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:17:52+08:00 ] 192.168.0.18 GET /static/web/images/newsbg01.png
+[ info ] garden.wj.cn/static/web/images/newsbg01.png [运行时间：0.033237s][吞吐率：30.09req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:04+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.028713s][吞吐率：34.83req/s] [内存消耗：1,847.13kb] [文件加载：39]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:04+08:00 ] 192.168.0.18 GET /static/web/i/cross2.png
+[ info ] garden.wj.cn/static/web/i/cross2.png [运行时间：0.021455s][吞吐率：46.61req/s] [内存消耗：1,567.01kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510524',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:04+08:00 ] 192.168.0.18 GET /static/web/i/2vm.png
+[ info ] garden.wj.cn/static/web/i/2vm.png [运行时间：0.027486s][吞吐率：36.38req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510524',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:04+08:00 ] 192.168.0.18 GET /static/web/i/mon-spr.png
+[ info ] garden.wj.cn/static/web/i/mon-spr.png [运行时间：0.028435s][吞吐率：35.17req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510524',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.025239s][吞吐率：39.62req/s] [内存消耗：1,847.13kb] [文件加载：39]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510530',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/i/mon-spr.png
+[ info ] garden.wj.cn/static/web/i/mon-spr.png [运行时间：0.026439s][吞吐率：37.82req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/i/cross2.png
+[ info ] garden.wj.cn/static/web/i/cross2.png [运行时间：0.028537s][吞吐率：35.04req/s] [内存消耗：1,567.01kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/i/2vm.png
+[ info ] garden.wj.cn/static/web/i/2vm.png [运行时间：0.037178s][吞吐率：26.90req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.024291s][吞吐率：41.17req/s] [内存消耗：1,566.87kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD [运行时间：0.026848s][吞吐率：37.25req/s] [内存消耗：1,566.91kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.026698s][吞吐率：37.46req/s] [内存消耗：1,566.87kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/ico_07_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_07_1.jpg [运行时间：0.028881s][吞吐率：34.62req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/ico_04_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_04_1.jpg [运行时间：0.033662s][吞吐率：29.71req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/ico_06_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_06_1.jpg [运行时间：0.047945s][吞吐率：20.86req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/newsbg02.png
+[ info ] garden.wj.cn/static/web/images/newsbg02.png [运行时间：0.030262s][吞吐率：33.04req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/newsbg01.png
+[ info ] garden.wj.cn/static/web/images/newsbg01.png [运行时间：0.028352s][吞吐率：35.27req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/newsbg03.png
+[ info ] garden.wj.cn/static/web/images/newsbg03.png [运行时间：0.047789s][吞吐率：20.93req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/newsbg04.png
+[ info ] garden.wj.cn/static/web/images/newsbg04.png [运行时间：0.059153s][吞吐率：16.91req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/silde-nav.png
+[ info ] garden.wj.cn/static/web/images/silde-nav.png [运行时间：0.025687s][吞吐率：38.93req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/ico_05_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_05_1.jpg [运行时间：0.027677s][吞吐率：36.13req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/lanmbq.png
+[ info ] garden.wj.cn/static/web/images/lanmbq.png [运行时间：0.024323s][吞吐率：41.11req/s] [内存消耗：1,566.98kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/datepng.png
+[ info ] garden.wj.cn/static/web/images/datepng.png [运行时间：0.028564s][吞吐率：35.01req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:21+08:00 ] 192.168.0.18 GET /static/web/images/ph2.png
+[ info ] garden.wj.cn/static/web/images/ph2.png [运行时间：0.029037s][吞吐率：34.44req/s] [内存消耗：1,567.02kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/buju.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510541',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:59+08:00 ] 192.168.0.18 GET /static/web/i/cross2.png
+[ info ] garden.wj.cn/static/web/i/cross2.png [运行时间：0.021474s][吞吐率：46.57req/s] [内存消耗：1,567.01kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'i',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/demo.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:59+08:00 ] 192.168.0.18 GET /static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/jquery.min.js(1).%E4%B8%8B%E8%BD%BD [运行时间：0.025628s][吞吐率：39.02req/s] [内存消耗：1,566.91kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:59+08:00 ] 192.168.0.18 GET /static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/static/web/index/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.040006s][吞吐率：25.00req/s] [内存消耗：1,566.87kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/static/web/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:59+08:00 ] 192.168.0.18 GET /static/web/images/datepng.png
+[ info ] garden.wj.cn/static/web/images/datepng.png [运行时间：0.023987s][吞吐率：41.69req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:59+08:00 ] 192.168.0.18 GET /static/web/images/lanmbq.png
+[ info ] garden.wj.cn/static/web/images/lanmbq.png [运行时间：0.036744s][吞吐率：27.22req/s] [内存消耗：1,566.98kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:22:59+08:00 ] 192.168.0.18 GET /static/web/images/ph2.png
+[ info ] garden.wj.cn/static/web/images/ph2.png [运行时间：0.024774s][吞吐率：40.36req/s] [内存消耗：1,567.02kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/buju.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.038255s][吞吐率：26.14req/s] [内存消耗：2,056.30kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /css/index.css
+[ info ] garden.wj.cn/css/index.css [运行时间：0.031461s][吞吐率：31.79req/s] [内存消耗：1,566.78kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'index.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /css/buju.css
+[ info ] garden.wj.cn/css/buju.css [运行时间：0.032785s][吞吐率：30.50req/s] [内存消耗：1,566.77kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'buju.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /jquery.min.js(1).%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD
+[ info ] garden.wj.cn/jquery.min.js(1).%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD [运行时间：0.036949s][吞吐率：27.06req/s] [内存消耗：1,566.78kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jquery.min.js(1).����',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/logo.png
+[ info ] garden.wj.cn/img/logo.png [运行时间：0.033426s][吞吐率：29.92req/s] [内存消耗：1,566.88kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/a1.jpg
+[ info ] garden.wj.cn/img/a1.jpg [运行时间：0.025925s][吞吐率：38.57req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'a1.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /sliders.js.%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD
+[ info ] garden.wj.cn/sliders.js.%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD [运行时间：0.055170s][吞吐率：18.13req/s] [内存消耗：1,566.75kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sliders.js.����',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/03.jpg
+[ info ] garden.wj.cn/img/03.jpg [运行时间：0.026516s][吞吐率：37.71req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/02.jpg
+[ info ] garden.wj.cn/img/02.jpg [运行时间：0.028159s][吞吐率：35.51req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/01.jpg
+[ info ] garden.wj.cn/img/01.jpg [运行时间：0.029210s][吞吐率：34.23req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/a4.jpg
+[ info ] garden.wj.cn/img/a4.jpg [运行时间：0.033463s][吞吐率：29.88req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/04.jpg
+[ info ] garden.wj.cn/img/04.jpg [运行时间：0.025235s][吞吐率：39.63req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/06.jpg
+[ info ] garden.wj.cn/img/06.jpg [运行时间：0.026212s][吞吐率：38.15req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/wh.jpg
+[ info ] garden.wj.cn/img/wh.jpg [运行时间：0.026311s][吞吐率：38.01req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'wh.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/05.jpg
+[ info ] garden.wj.cn/img/05.jpg [运行时间：0.027023s][吞吐率：37.01req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '05.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/a2.jpg
+[ info ] garden.wj.cn/img/a2.jpg [运行时间：0.087247s][吞吐率：11.46req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'a2.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/a3.jpg
+[ info ] garden.wj.cn/img/a3.jpg [运行时间：0.095176s][吞吐率：10.51req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'a3.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/02.jpg
+[ info ] garden.wj.cn/img/02.jpg [运行时间：0.027617s][吞吐率：36.21req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/01.jpg
+[ info ] garden.wj.cn/img/01.jpg [运行时间：0.030444s][吞吐率：32.85req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/04.jpg
+[ info ] garden.wj.cn/img/04.jpg [运行时间：0.032030s][吞吐率：31.22req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/06.jpg
+[ info ] garden.wj.cn/img/06.jpg [运行时间：0.033584s][吞吐率：29.78req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:09+08:00 ] 192.168.0.18 GET /img/03.jpg
+[ info ] garden.wj.cn/img/03.jpg [运行时间：0.034651s][吞吐率：28.86req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.032549s][吞吐率：30.72req/s] [内存消耗：2,058.84kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.023990s][吞吐率：41.68req/s] [内存消耗：1,566.70kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sliders.js.下载',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /img/a1.jpg
+[ info ] garden.wj.cn/img/a1.jpg [运行时间：0.027688s][吞吐率：36.12req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'a1.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /img/logo.png
+[ info ] garden.wj.cn/img/logo.png [运行时间：0.030369s][吞吐率：32.93req/s] [内存消耗：1,566.88kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /jquery.min.js(1).%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/jquery.min.js(1).%E4%B8%8B%E8%BD%BD [运行时间：0.031888s][吞吐率：31.36req/s] [内存消耗：1,566.77kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jquery.min.js(1).下载',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /css/buju.css
+[ info ] garden.wj.cn/css/buju.css [运行时间：0.049521s][吞吐率：20.19req/s] [内存消耗：1,566.77kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'buju.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /img/a3.jpg
+[ info ] garden.wj.cn/img/a3.jpg [运行时间：0.025842s][吞吐率：38.70req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'a3.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /img/a2.jpg
+[ info ] garden.wj.cn/img/a2.jpg [运行时间：0.029196s][吞吐率：34.25req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'a2.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /css/index.css
+[ info ] garden.wj.cn/css/index.css [运行时间：0.030545s][吞吐率：32.74req/s] [内存消耗：1,566.78kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'index.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /img/01.jpg
+[ info ] garden.wj.cn/img/01.jpg [运行时间：0.020736s][吞吐率：48.23req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /img/a4.jpg
+[ info ] garden.wj.cn/img/a4.jpg [运行时间：0.026593s][吞吐率：37.60req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'a4.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /sliders.js.%E4%B8%8B%E8%BD%BD
+[ info ] garden.wj.cn/sliders.js.%E4%B8%8B%E8%BD%BD [运行时间：0.037864s][吞吐率：26.41req/s] [内存消耗：1,566.70kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sliders.js.下载',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /img/02.jpg
+[ info ] garden.wj.cn/img/02.jpg [运行时间：0.022757s][吞吐率：43.94req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:32+08:00 ] 192.168.0.18 GET /img/03.jpg
+[ info ] garden.wj.cn/img/03.jpg [运行时间：0.032393s][吞吐率：30.87req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:33+08:00 ] 192.168.0.18 GET /img/06.jpg
+[ info ] garden.wj.cn/img/06.jpg [运行时间：0.030150s][吞吐率：33.17req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:33+08:00 ] 192.168.0.18 GET /img/01.jpg
+[ info ] garden.wj.cn/img/01.jpg [运行时间：0.029501s][吞吐率：33.90req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:33+08:00 ] 192.168.0.18 GET /img/04.jpg
+[ info ] garden.wj.cn/img/04.jpg [运行时间：0.058829s][吞吐率：17.00req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:33+08:00 ] 192.168.0.18 GET /img/05.jpg
+[ info ] garden.wj.cn/img/05.jpg [运行时间：0.025585s][吞吐率：39.09req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '05.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:23:33+08:00 ] 192.168.0.18 GET /img/wh.jpg
+[ info ] garden.wj.cn/img/wh.jpg [运行时间：0.029199s][吞吐率：34.25req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'wh.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.031506s][吞吐率：31.74req/s] [内存消耗：2,059.06kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /img/02.jpg
+[ info ] garden.wj.cn/img/02.jpg [运行时间：0.026048s][吞吐率：38.39req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /img/01.jpg
+[ info ] garden.wj.cn/img/01.jpg [运行时间：0.031202s][吞吐率：32.05req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /img/03.jpg
+[ info ] garden.wj.cn/img/03.jpg [运行时间：0.027517s][吞吐率：36.34req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /img/04.jpg
+[ info ] garden.wj.cn/img/04.jpg [运行时间：0.028004s][吞吐率：35.71req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /img/05.jpg
+[ info ] garden.wj.cn/img/05.jpg [运行时间：0.032311s][吞吐率：30.95req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '05.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /img/06.jpg
+[ info ] garden.wj.cn/img/06.jpg [运行时间：0.033070s][吞吐率：30.24req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/lanmbq.png
+[ info ] garden.wj.cn/static/web/images/lanmbq.png [运行时间：0.058703s][吞吐率：17.03req/s] [内存消耗：1,566.98kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/newsbg04.png
+[ info ] garden.wj.cn/static/web/images/newsbg04.png [运行时间：0.027791s][吞吐率：35.98req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/ph2.png
+[ info ] garden.wj.cn/static/web/images/ph2.png [运行时间：0.060669s][吞吐率：16.48req/s] [内存消耗：1,567.02kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/buju.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/newsbg02.png
+[ info ] garden.wj.cn/static/web/images/newsbg02.png [运行时间：0.031435s][吞吐率：31.81req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/ico_07_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_07_1.jpg [运行时间：0.023785s][吞吐率：42.04req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/silde-nav.png
+[ info ] garden.wj.cn/static/web/images/silde-nav.png [运行时间：0.029050s][吞吐率：34.42req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/newsbg03.png
+[ info ] garden.wj.cn/static/web/images/newsbg03.png [运行时间：0.027228s][吞吐率：36.73req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/ico_04_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_04_1.jpg [运行时间：0.029225s][吞吐率：34.22req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/datepng.png
+[ info ] garden.wj.cn/static/web/images/datepng.png [运行时间：0.106180s][吞吐率：9.42req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /img/wh.jpg
+[ info ] garden.wj.cn/img/wh.jpg [运行时间：0.124867s][吞吐率：8.01req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'wh.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/ico_05_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_05_1.jpg [运行时间：0.025015s][吞吐率：39.98req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/ico_06_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_06_1.jpg [运行时间：0.035494s][吞吐率：28.17req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:24:57+08:00 ] 192.168.0.18 GET /static/web/images/newsbg01.png
+[ info ] garden.wj.cn/static/web/images/newsbg01.png [运行时间：0.039967s][吞吐率：25.02req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.042202s][吞吐率：23.70req/s] [内存消耗：2,059.30kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/newsbg04.png
+[ info ] garden.wj.cn/static/web/images/newsbg04.png [运行时间：0.031117s][吞吐率：32.14req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /img/01.jpg
+[ info ] garden.wj.cn/img/01.jpg [运行时间：0.038841s][吞吐率：25.75req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/ico_05_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_05_1.jpg [运行时间：0.037513s][吞吐率：26.66req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/silde-nav.png
+[ info ] garden.wj.cn/static/web/images/silde-nav.png [运行时间：0.038741s][吞吐率：25.81req/s] [内存消耗：1,566.95kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/ico_07_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_07_1.jpg [运行时间：0.045472s][吞吐率：21.99req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/newsbg01.png
+[ info ] garden.wj.cn/static/web/images/newsbg01.png [运行时间：0.047018s][吞吐率：21.27req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/newsbg03.png
+[ info ] garden.wj.cn/static/web/images/newsbg03.png [运行时间：0.021537s][吞吐率：46.43req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/ph2.png
+[ info ] garden.wj.cn/static/web/images/ph2.png [运行时间：0.043133s][吞吐率：23.18req/s] [内存消耗：1,567.02kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/buju.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /img/03.jpg
+[ info ] garden.wj.cn/img/03.jpg [运行时间：0.027871s][吞吐率：35.88req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/ico_04_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_04_1.jpg [运行时间：0.044297s][吞吐率：22.57req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /img/02.jpg
+[ info ] garden.wj.cn/img/02.jpg [运行时间：0.042916s][吞吐率：23.30req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/newsbg02.png
+[ info ] garden.wj.cn/static/web/images/newsbg02.png [运行时间：0.052928s][吞吐率：18.89req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/ico_06_1.jpg
+[ info ] garden.wj.cn/static/web/images/ico_06_1.jpg [运行时间：0.034753s][吞吐率：28.77req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /img/06.jpg
+[ info ] garden.wj.cn/img/06.jpg [运行时间：0.031193s][吞吐率：32.06req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/lanmbq.png
+[ info ] garden.wj.cn/static/web/images/lanmbq.png [运行时间：0.028021s][吞吐率：35.69req/s] [内存消耗：1,566.98kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /static/web/images/datepng.png
+[ info ] garden.wj.cn/static/web/images/datepng.png [运行时间：0.032221s][吞吐率：31.04req/s] [内存消耗：1,566.94kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:02+08:00 ] 192.168.0.18 GET /img/04.jpg
+[ info ] garden.wj.cn/img/04.jpg [运行时间：0.034885s][吞吐率：28.67req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:08+08:00 ] 192.168.0.18 GET /static/web/images/ico_04.png
+[ info ] garden.wj.cn/static/web/images/ico_04.png [运行时间：0.025656s][吞吐率：38.98req/s] [内存消耗：1,566.98kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:26:09+08:00 ] 192.168.0.18 GET /static/web/images/ico_07.png
+[ info ] garden.wj.cn/static/web/images/ico_07.png [运行时间：0.034880s][吞吐率：28.67req/s] [内存消耗：1,566.98kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:32:31+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.042430s][吞吐率：23.57req/s] [内存消耗：1,863.12kb] [文件加载：39]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:32:32+08:00 ] 192.168.0.18 GET /img/06.jpg
+[ info ] garden.wj.cn/img/06.jpg [运行时间：0.024400s][吞吐率：40.98req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:32:32+08:00 ] 192.168.0.18 GET /img/01.jpg
+[ info ] garden.wj.cn/img/01.jpg [运行时间：0.030761s][吞吐率：32.51req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:32:32+08:00 ] 192.168.0.18 GET /img/03.jpg
+[ info ] garden.wj.cn/img/03.jpg [运行时间：0.028951s][吞吐率：34.54req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:32:32+08:00 ] 192.168.0.18 GET /img/04.jpg
+[ info ] garden.wj.cn/img/04.jpg [运行时间：0.029476s][吞吐率：33.93req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:32:32+08:00 ] 192.168.0.18 GET /img/02.jpg
+[ info ] garden.wj.cn/img/02.jpg [运行时间：0.064902s][吞吐率：15.41req/s] [内存消耗：1,566.80kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => '02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:33:28+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.046531s][吞吐率：21.49req/s] [内存消耗：2,059.45kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:33:36+08:00 ] 192.168.0.18 GET /static/web/images/ico_07.png
+[ info ] garden.wj.cn/static/web/images/ico_07.png [运行时间：0.024917s][吞吐率：40.13req/s] [内存消耗：1,567.03kb] [文件加载：34]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'web',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://garden.wj.cn/static/web/css/index.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:38:43+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.039691s][吞吐率：25.19req/s] [内存消耗：2,066.59kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:39:17+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.041371s][吞吐率：24.17req/s] [内存消耗：1,863.10kb] [文件加载：39]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-25T17:39:31+08:00 ] 192.168.0.18 GET /
+[ info ] garden.wj.cn/ [运行时间：0.041995s][吞吐率：23.81req/s] [内存消耗：2,066.35kb] [文件加载：41]
+[ info ] [ LANG ] F:\www\php\Garden\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'garden.wj.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=7902399488; pgv_si=s6550238208; Hm_lvt_382f81c966395258f239157654081890=1532510242; Hm_lpvt_382f81c966395258f239157654081890=1532510579',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\www\php\Garden\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\www\php\Garden\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

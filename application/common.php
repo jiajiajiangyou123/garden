@@ -84,3 +84,19 @@ if (!function_exists('page_param')) {
         return $res;
     }
 }
+
+function test_data()
+{
+    return array(
+        'say massege 1',
+        'say massege 2',
+        'say massege 3',
+        'say massege 4',
+        'say massege 5',
+        'say massege 6',
+        'say massege 7',
+        'say massege 8',
+        'say massege 9',
+        'say massege 10',
+    );
+}
