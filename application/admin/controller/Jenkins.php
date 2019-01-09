@@ -12,5 +12,5 @@ use think\Controller;
 
 class Jenkins extends Controller
 {
-    
+
 }
