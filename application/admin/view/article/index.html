@@ -16,7 +16,7 @@
 </blockquote>
 
 
-<table class="layui-hide" id="test"></table>
+<table class="layui-hide" id="test" lay-filter="demo"></table>
 
 <script type="text/html" id="switchTpl">
     <!-- 这里的 checked 的状态只是演示 -->
@@ -61,7 +61,6 @@
                 ,{field:'logo', title:'图片',height:100,width:120, toolbar: '#imgTpl'}
                 ,{field:'author', title: '作者'}
                 ,{field:'content', title: '内容'}
-                ,{field:'status', title:'状态', templet: '#switchTpl', unresize: true}
                 ,{field:'create_time', title:'创建时间'}
                 ,{field:'update_time', title:'更新时间'}
                 ,{fixed: 'right', width:150, align:'center', toolbar: '#barDemo'} //这里的toolbar值是模板元素的选择器
@@ -95,6 +94,35 @@
             console.log(obj.checked); //当前是否选中状态
             console.log(obj.data); //选中行的相关数据
             console.log(obj.type); //如果触发的是全选，则为：all，如果触发的是单选，则为：one
+        });
+
+        //监听工具条
+        table.on('tool(demo)', function(obj){
+            var data = obj.data;
+            if(obj.event === 'detail'){
+                layer.msg('ID：'+ data.id + ' 的查看操作');
+            } else if(obj.event === 'del'){
+                layer.confirm('真的删除行么', function(index){
+                    delData = {
+                        id  :   data.id
+                    }
+                    $.get('/admin/article/delete',delData,function (res) {
+                        res = JSON.parse(res)
+                        if (res.state == 1) {
+                            layer.msg('删除成功');
+                            setTimeout(function () {
+                                layer.close(index);
+                                window.location.reload()
+                            })
+                        } else {
+                            layer.msg('删除失败')
+                            layer.close(index);
+                        }
+                    });
+                });
+            } else if(obj.event === 'edit'){
+                window.location.href = '/admin/article/edit?id=' + data.id;
+            }
         });
     });
 </script>

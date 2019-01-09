@@ -1,0 +1,85 @@
+{block name="admin_load"}{include file="common/admin_load"}{/block}
+<link rel="stylesheet" href="__STATIC__/layui/css/modules/layer/default/layer.css?v=3.1.1">
+<link rel="stylesheet" href="__STATIC__/system/css/menu.css">
+<style>
+    .text-green{
+        color: green;
+    }
+    .text-red{
+        color: red;
+    }
+</style>
+<!-- 内容主体区域 -->
+<div style="padding: 15px;">
+    <fieldset class="layui-elem-field layui-field-title mt15">
+        <legend>角色管理列表</legend>
+    </fieldset>
+
+    <a href="/admin/role/add"  class="layui-btn layui-btn-normal" >新增</a>
+    <button class="layui-btn layui-btn-danger refresh">删除</button>
+    <hr class="layui-bg-orange">
+</div>
+
+<table class="layui-table" lay-data="{ url:'/admin/role/role_list', page:false, id:'idTest'}" lay-filter="demo">
+    <thead>
+    <tr>
+        <th lay-data="{type:'checkbox', fixed: 'left'}"></th>
+        <th lay-data="{field:'id', sort: true, fixed: true}">ID</th>
+        <th lay-data="{field:'rolename'}">角色名称</th>
+        <th lay-data="{field:'type', sort: false}">角色类型</th>
+        <th lay-data="{field:'desc'}">角色描述</th>
+        <th lay-data="{field: 'status', align:'center', toolbar: '#statusDemo'}">状态</th>
+        <th lay-data="{fixed: 'right', width:250, align:'center', toolbar: '#barDemo'}">操作</th>
+    </tr>
+    </thead>
+</table>
+
+<script type="text/html" id="barDemo">
+    <a class="layui-btn layui-btn-warm layui-btn-xs">角色授权</a>
+    <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+
+<script type="text/html" id="statusDemo">
+    <a href="javascript:void(0);"
+       class="editimg fa {{d.status == 1 ? 'fa-check-circle text-green': 'fa-times-circle text-red'}}"  lay-event="grant"></a>
+</script>
+<script>
+    layui.use('table', function(){
+        var table = layui.table;
+        //监听表格复选框选择
+        table.on('checkbox(demo)', function(obj){
+
+        });
+        //监听工具条
+        table.on('tool(demo)', function(obj){
+            var data = obj.data;
+            var id = data.id;
+            if(obj.event === 'detail'){
+                layer.msg('ID：'+ data.id + ' 的查看操作');
+            } else if(obj.event === 'del'){
+                layer.confirm('确认删除"'+data.rolename+'"', function(index){
+                    $.get('/admin/role/delete?id='+data.id,{},function (res) {
+                        res = JSON.parse(res);
+                        layer.close(index);
+                        setTimeout(function () {
+                            layer.msg(res.info);
+                            window.location.reload();
+                        },500)
+                    });
+                });
+            } else if(obj.event === 'edit'){
+                location.href = '/admin/role/edit?id=' + id;
+            } else if (obj.event === 'grant') {
+                var statusData = {}
+                var status = data.status == 1 ? 0 : 1;
+                statusData.status = status;
+                $.post('/admin/role/status?id='+id,statusData,function (res) {
+                    res = JSON.parse(res);
+                    layer.msg(res.info);
+                    window.location.reload();
+                });
+            }
+        });
+    });
+</script>

@@ -63,7 +63,7 @@
                 {if condition="isset($menuList[$vo.id])"}
                 <dl class="layui-nav-child">
                     {volist name="menuList[$vo.id]" id="cv"}
-                    <dd><a href="javascript:;" id="{$cv.url}"><i class="fa fa-{$vo.icon} "></i>&nbsp;&nbsp;{$cv.name}</a></dd>
+                    <dd><a href="javascript:;" id="{$cv.url}"><i class="fa fa-{$cv.icon} "></i>&nbsp;&nbsp;{$cv.name}</a></dd>
                     {/volist}
                 </dl>
                 {/if}

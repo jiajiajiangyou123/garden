@@ -18,7 +18,8 @@ return [
         ':name' => ['index/hello', ['method' => 'post']],
     ],
     '__alias__' =>  [
-        'menuList'   =>  'admin/menu/menuList'
+        'menuList'   =>  'admin/menu/menuList',
+        'article'   =>  '/index/index/article'
     ]
 
 ];

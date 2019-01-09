@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://www.17sucai.com/preview/486567/2016-02-16/myblog/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>我的博客</title>
+    <meta name="关键字" content="">
+    <link href="__STATIC__/web/css/buju.css" rel="stylesheet">
+    <link href="__STATIC__/web/css/index.css" rel="stylesheet">
+    <script type="text/javascript" src="__STATIC__/web/js/jquery.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/web/js/sliders.js"></script>
+
+
+    <style>
+        img{
+            max-width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="__STATIC__/layui/css/layui.css"  media="all">
+    <link href="__STATIC__/fontawesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="__STATIC__/layui/css/modules/layer/default/layer.css?v=3.1.1">
+    <script src="__STATIC__/layui/layui.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="logo f_l">
+        <a href="http://www.17sucai.com/preview/486567/2016-02-16/myblog/index.html#">
+            <img src="__STATIC__/web/img/logo.png">
+        </a>
+    </div>
+    <div id="topnav" class="f_r">
+        <ul>
+            <a href="#"  id="topnav_current">首页</a>
+            <a href="#" >关于我</a>
+            <a href="#" >文章</a>
+            <a href="#" >心情</a>
+            <a href="#" >相册</a>
+            <a href="#" >留言</a>
+        </ul>
+    </div>
+</header>
+<article>
+    <div class="l_box f_l" >
+        <div class="banner">
+            <div id="slide-holder">
+                <div id="slide-runner">
+                    {volist name="images" id="vo" key="k"}
+                    <a href="http://www.17sucai.com/" target="_blank">
+                        <img id="slide-img-{$k}" src="__STATIC__/{$vo.image}" alt="" style="left: -2000px;">
+                    </a>
+                    {/volist}
+
+                    <div id="slide-controls" style="display:block;">
+                        <p id="slide-client" class="text">
+                            <strong></strong>
+                            <span></span>
+                        </p>
+                        <p id="slide-desc" class="text"></p>
+                        <p id="slide-nav">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            if(!window.slider){
+                var slider={};
+            }
+            slider.data=[
+                {
+                    "id":"slide-img-1", //与slide-runner中的img标签id对应
+                    "client":"",
+                    "desc":""     //这里描述图片内容
+                },
+                {
+                    "id":"slide-img-2",
+                    "client":"",
+                    "desc":""
+                },
+                {
+                    "id":"slide-img-3",
+                    "client":"",
+                    "desc":""
+                },
+                {
+                    "id":"slide-img-4",
+                    "client":"",
+                    "desc":""
+                }
+            ];
+        </script>
+        <div class="topnews">
+            <h2>
+                文章
+            </h2>
+            {if condition="$article['content']"}
+            <div style="">{$article['content']}</div>
+            {else/}
+            <div class="blogs">
+                <figure>
+                    <img src="__STATIC__/web/img/01.jpg">
+                </figure>
+                <ul>
+                    <h3 style=" text-align: center;"><a href="http://www.17sucai.com/">访问的文章不存在</a></h3>
+                    <h1 style="    font-size: 100px;text-align: center;margin-top: 50px">404</h1>
+                    <p class="autor">
+
+                </ul>
+            </div>
+            {/if}
+
+        </div>
+        </div>
+    </div>
+    <div class="r_box f_r">
+        <div class="tit01">
+            <h3>关注我</h3>
+            <div class="gzwm">
+                <ul>
+                    <li><a class="xlwb" href="http://www.17sucai.com/preview/486567/2016-02-16/myblog/index.html#" target="_blank">新浪微博</a></li>
+                    <li><a class="txwb" href="http://www.17sucai.com/preview/486567/2016-02-16/myblog/index.html#" target="_blank">腾讯微博</a></li>
+                    <li><a class="rss" href="http://www.17sucai.com/preview/486567/2016-02-16/myblog/index.html#" target="_blank">RSS</a></li>
+                    <li><a class="wx" href="http://www.17sucai.com/preview/486567/2016-02-16/myblog/index.html#" target="_blank">邮箱</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="ad300x100">
+            <img src="__STATIC__/web/img/wh.jpg">
+        </div>
+        <div class="tab" id="lp_right_select">
+
+            <div class="tab-top">
+                <ul class="hd" id="tb">
+                    <li class=""><a href="javascript:;">点击排行</a></li>
+                    <li class="cur"><a href="javascript:;">最新文章</a></li>
+                    <li class=""><a href="javascript:;">站长推荐</a></li>
+                </ul>
+            </div>
+            <div class="tab-main" id="tb-main">
+                <div class="bd bd-news" style="display: none;"><ul>
+                    {volist name="articles" id="vo"}
+                    <li><a href="/index/index/article?id={$vo.id}" target="_blank">{$vo.title}</a></li>
+                    {/volist}
+                    <!--<li><a href="http://www.17sucai.com/" target="_blank">住在手机里的朋友</a></li>-->
+                    <!--<li><a href="http://www.17sucai.com/" target="_blank">教你怎样用欠费手机拨打电话</a></li>-->
+                    <!--<li><a href="http://www.17sucai.com/" target="_blank">原来以为，一个人的勇敢是，删掉他的手机号码...</a></li>-->
+                    <!--<li><a href="http://www.17sucai.com/" target="_blank">手机的16个惊人小秘密，据说99.999%的人都不知</a></li>-->
+                    <!--<li><a href="http://www.17sucai.com/" target="_blank">你面对的是生活而不是手机</a></li>-->
+                    <!--<li><a href="http://www.17sucai.com/" target="_blank">豪雅手机正式发布! 在法国全手工打造的奢侈品</a></li>-->
+                </ul></div>
+                <div class="bd bd-news" style="display: block;"><ul>
+                    <li><a href="http://www.17sucai.com/" target="_blank">原来以为，一个人的勇敢是，删掉他的手机号码...</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">手机的16个惊人小秘密，据说99.999%的人都不知</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">住在手机里的朋友</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">教你怎样用欠费手机拨打电话</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">你面对的是生活而不是手机</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">豪雅手机正式发布! 在法国全手工打造的奢侈品</a></li>
+                </ul></div>
+                <div class="bd bd-news" style="display: none;"><ul>
+                    <li><a href="http://www.17sucai.com/" target="_blank">手机的16个惊人小秘密，据说99.999%的人都不知</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">你面对的是生活而不是手机</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">住在手机里的朋友</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">豪雅手机正式发布! 在法国全手工打造的奢侈品</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">你面对的是生活而不是手机</a></li>
+                    <li><a href="http://www.17sucai.com/" target="_blank">原来以为，一个人的勇敢是，删掉他的手机号码...</a></li>
+                </ul></div>
+            </div>
+        </div>
+        <div class="cloud">
+            <h3>标签云</h3>
+            <ul>
+                {volist name="label" id="vi"}
+                <li><a href="javascript:;">{$vi.name}</a></li>
+                {/volist}
+            </ul>
+        </div>
+        <div class="tuwen">
+            <h3>图文推荐</h3>
+            <ul>
+                {volist name="articles" id="vi"}
+                <li><a href="/index/index/article?id={$vi.id}"><img src="__STATIC__/{$vi.logo}"><b>{$vi.title}</b></a>
+                    <p>
+                        <span class="tulanum"><a href="http://www.17sucai.com/">{$vi.author}</a></span>
+                        <span class="tutime">{:date('Y-m-d',$vi.create_time)}</span>
+                    </p>
+                </li>
+                {/volist}
+            </ul>
+        </div>
+        <div class="ad"><img src="__STATIC__/web/img/03.jpg"></div>
+        <div class="links">
+            <h3><span><a href="#">申请友情链接</a></span>友情链接</h3>
+            <ul>
+                <li><a href="#">###########</a></li>
+
+            </ul>
+        </div>
+    </div>
+</article>
+</body></html>

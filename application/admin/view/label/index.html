@@ -1,0 +1,65 @@
+{block name="admin_load"}{include file="common/admin_load"}{/block}
+<link rel="stylesheet" href="__STATIC__/layui/css/modules/layer/default/layer.css?v=3.1.1">
+<link rel="stylesheet" href="__STATIC__/system/css/menu.css">
+<link rel="stylesheet" href="__STATIC__/web/css/buju.css">
+
+<!-- 内容主体区域 -->
+<div style="padding: 15px;">
+    <fieldset class="layui-elem-field layui-field-title mt15">
+        <legend>标签管理</legend>
+    </fieldset>
+    <hr class="layui-bg-orange">
+</div>
+
+<div class="layui-form-item">
+    <div class="layui-inline">
+        <div class="layui-input-inline">
+            <input type="text" name="label" autocomplete="off" id="name" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-inline">
+        <div class="layui-input-inline">
+            <a href="javascript:" style="color: #1E9FFF" id="insert"><i class="fa fa-plus" style="font-size: 25px"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="cloud" style="width: 50%">
+    <h3>标签云</h3>
+    <ul>
+        {volist name="label" id="vo"}
+        <li><a href="#">{$vo.name}</a></li>
+        {/volist}
+    </ul>
+</div>
+
+<script>
+    layui.use('layer',function () {
+        var layer = layui.layer;
+    })
+    $(function () {
+        $('#insert').click(function () {
+            var name = $('#name').val();
+            if (!name) {
+                layer.msg('添加不能为空');
+                return false
+            }
+            var label = {
+                name    :   name
+            }
+            $.post('/admin/label/add',label,function (res) {
+                res = JSON.parse(res);
+                if (res.state == 1) {
+                    layer.msg('添加成功');
+                    setTimeout(function () {
+                        window.location.reload();
+                    },500);
+                    return false
+                }
+                layer.msg('添加失败');
+            });
+        });
+    });
+</script>
+
+

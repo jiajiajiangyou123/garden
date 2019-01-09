@@ -10,6 +10,8 @@ namespace app\admin\controller;
 
 use app\admin\controller\Admin as Admin;
 use app\admin\model\Role as Roles;
+use app\admin\validate\Role as RoleV;
+use app\admin\model\Menu;
 
 class Role extends Admin
 {
@@ -22,38 +24,118 @@ class Role extends Admin
 
     public function index()
     {
-        $roles = $this->_model->select();
-        if ($roles) {
-            $roles = collection($roles)->toArray();
-        }
-
-        $this->assign('role',$roles);
         return $this->fetch();
     }
 
-    public function create()
+    public function add()
     {
-        $data = input('post.');
-        $res = $this->_model->validate('Role.create')->allFlow(true)->isUpdate(false)->save($data);
-        if (!$res) {
-            return json_data();
+        if (request()->isPost()) {
+            $data = input('post.');
+            $id = input('get.id');
+            if (!$id) {
+                return json_data('编辑失败');
+            }
+            $data['auth'] = implode(',',$data['auth']);
+            $roleV = new RoleV();
+            $result = $roleV->scene('edit')->check($data);
+            if (!$result) {
+                return json_data($roleV->getError());
+            }
+            if ($this->_model->where('id',$id)->update($data)) {
+                return json_data('编辑成功','/admin/role',1);
+            }
+            return json_data('编辑失败');
+        } else {
+            $sort = $this->rule();
+            $this->assign('sort',$sort);
+            return $this->fetch();
         }
-        return json_data('添加成功');
     }
 
     public function edit()
     {
-        $data = input('post.');
-        if (!isset($data['id']) || !$data['id']) {
+        if (request()->isPost()) {
+            $data = input('post.');
+            $data['auth'] = implode(',',$data['auth']);
+            $roleV = new RoleV();
+            $result = $roleV->scene('add')->check($data);
+            if (!$result) {
+                return json_data($roleV->getError());
+            }
+            if ($this->_model->insert($data)) {
+                return json_data('添加成功','/admin/role',1);
+            }
+            return json_data('添加失败');
+        } else {
+            $id = input('get.id');
+            $info = $this->_model->where('id',$id)->find()->toArray();
+            $info['auth'] = explode(',',$info['auth']);
+            $sort = $this->rule();
+            $this->assign('sort',$sort);
+            $this->assign('info',$info);
+
+            return $this->fetch();
+        }
+    }
+
+    public function status()
+    {
+        $id = input('get.id');
+        $status = input('post.status') ?  input('post.status') : 0;
+        if (!$id) {
             return json_data();
         }
-        $this->_model->_where['id'] = $data['id'];
-        $res = $this->_model->validate('Role.create')->where($this->_model->_where)
-                    ->allFlow(true)->isUpdate(false)
-                    ->save($data);
-        if ($res !== false) {
-            return json_data('','',1);
+        $data = [
+            'status'    =>  $status
+        ];
+
+        return json_data($this->_model->where('id',$id)->update($data));
+    }
+
+
+    public function delete()
+    {
+        $id = input('get.id');
+        if (!$id) {
+            return json_data('删除失败');
         }
-        return json_data();
+
+        if ($this->_model->where('id',$id)->delete()) {
+            return json_data('删除成功');
+        }
+        return json_data('删除失败');
+    }
+
+
+    public function rule()
+    {
+        $mmodel = new Menu();
+        $rule = $mmodel->field('id,pid,name')->select();
+        if ($rule) {
+            $rule = collection($rule)->toArray();
+        }
+
+        $sort = array();
+        foreach ($rule as $key=>$value) {
+            $item = $rule[$key];
+            $pid = $item['pid'];
+            $list = isset($sort[$pid]) ?  $sort[$pid] :[];
+            array_push($list,$item);
+            $sort[$pid] = $list;
+        }
+        return $sort;
+    }
+
+    public function role_list()
+    {
+        $role = $this->_model->select();
+
+        if ($role) {
+            $role = collection($role)->toArray();
+        }
+
+
+
+        return layui_data($role);
     }
 }

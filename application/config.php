@@ -234,9 +234,10 @@ return [
 
     //分页配置
     'paginate'               => [
-        'type'      => 'bootstrap',
+        'type'      => 'Layui',
         'var_page'  => 'page',
         'list_rows' => 15,
+        'newstyle'  => true,
     ],
     /*QQ邮件配置*/
     'MAIL_HOST_QQ'  =>  'smtp.qq.com',
@@ -247,7 +248,7 @@ return [
 
     /*163网易邮件配置*/
     'MAIL_HOST_WY'  =>  'smtp.163.com',
-    "MAIL_PASSWORD_WY"  =>  '163wangjia',
+    "MAIL_PASSWORD_WY"  =>  '163wangjia',#w1415521548
     "MAIL_SEND_NAME_WY" =>  '18768188384@163.com',
     "MAIL_NAME_WY"      =>  'Garden',
     "MAIL_USER_NAME_WY" =>  '18768188384@163.com',

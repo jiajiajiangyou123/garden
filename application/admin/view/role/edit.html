@@ -1,0 +1,126 @@
+{block name="admin_load"}{include file="common/admin_load"}{/block}
+<link rel="stylesheet" href="__STATIC__/layui/css/modules/layer/default/layer.css?v=3.1.1">
+<link rel="stylesheet" href="__STATIC__/system/css/menu.css">
+<!-- 内容主体区域 -->
+<div style="padding: 15px;">
+    <fieldset class="layui-elem-field layui-field-title mt15">
+        <legend>角色管理列表</legend>
+    </fieldset>
+
+    <a href="/admin/role/index"  class="layui-btn layui-btn-normal" >角色列表</a>
+    <hr class="layui-bg-orange">
+</div>
+<form class="layui-form" style="width: 80%" lay-filter="roleEdit" action="">
+    <div class="layui-form-item">
+        <label class="layui-form-label">角色名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="rolename" lay-verify="rolename" value="{$info['rolename']}" autocomplete="off" placeholder="请输入角色名称" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">角色类型</label>
+        <div class="layui-input-block">
+            <input type="text" name="type" value="{$info['type']}"  lay-verify="type" autocomplete="off" placeholder="请输入角色类型" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">角色状态</label>
+        <div class="layui-input-block">
+            <input type="radio" name="status" value="1" title="正常" {$info['status'] == 1?"checked":""}>
+            <input type="radio" name="status" value="0" title="禁用" {$info['status'] == 0?"checked":""}>
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">角色描述</label>
+        <div class="layui-input-block">
+            <textarea value="123"  name="desc" lay-verify="desc"  placeholder="请输入角色描述"  class="layui-textarea"></textarea>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">角色授权</label>
+        <div class="layui-input-block">
+            {volist name="$sort[0]" id="vo"}
+            <p class='left3 p_left' style="margin-top: 20px">
+                <input type="checkbox" name="auth[]" value="{$vo.id}"  lay-skin="primary" title="{$vo.name}" {:in_array($vo.id,$info['auth'])?"checked":""}>
+            </p>
+            {if condition="isset($sort[$vo.id])"}
+            {volist name="$sort[$vo.id]" id="vi"}
+            <input type="checkbox" name="auth[]" value="{$vi.id}" title="{$vi.name}" lay-skin="primary" {:in_array($vi.id,$info['auth'])?"checked":""}>
+            {/volist}
+            {/if}
+            {/volist}
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+
+<script>
+    layui.use(['form', 'layedit', 'laydate'], function(){
+        var form = layui.form
+            ,layer = layui.layer
+            ,layedit = layui.layedit
+            ,laydate = layui.laydate;
+
+
+
+
+        //自定义验证规则
+        form.verify({
+            rolename: function(value){
+                if(value == '' || value == undefined){
+                    return '请输入角色名称';
+                }
+            },
+            type: function(value){
+                if(value == '' || value == undefined){
+                    return '请输入角色类型';
+                }
+            },
+            desc: function(value){
+                if(value == '' || value == undefined){
+                    return '请输入角色描述';
+                }
+            }
+        });
+
+
+        //监听提交
+        form.on('submit(demo1)', function(data){
+            var insertData = data.field;
+            var ajaxOp = {};
+            ajaxOp.url = "/admin/role/add?id={$info['id']}";
+            ajaxOp.type = "POST";
+            ajaxOp.dateType = "JSON";
+            ajaxOp.data = insertData;
+            ajaxOp.success = function (res) {
+                res = JSON.parse(res);
+
+                if (res.state == 1) {
+                    layer.msg(res.info);
+                    setTimeout(function () {
+                        location.href = res.url;
+                    },1500)
+                } else {
+                    layer.msg(res.info);
+                    return false; //阻止表单跳转。如果需要表单跳转，去掉这段即可。
+                }
+            }
+            $.ajax(ajaxOp);
+            return false;
+        });
+
+        //表单初始赋值
+        form.val('roleEdit', {
+            "desc": "{$info['desc']}"
+        })
+    });
+</script>

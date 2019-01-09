@@ -24,8 +24,6 @@ class Menu extends Admin
 
     public function index()
     {
-        $menuList = array();
-        $this->assign('menuList',$menuList);
         return $this->fetch();
     }
 

@@ -1,0 +1,116 @@
+{block name="admin_load"}{include file="common/admin_load"}{/block}
+<link rel="stylesheet" href="__STATIC__/layui/css/modules/layer/default/layer.css?v=3.1.1">
+<link rel="stylesheet" href="__STATIC__/system/css/menu.css">
+<style>
+    #demo1{
+        width: 100px;
+        height: 100px;
+    }
+</style>
+<!-- 内容主体区域 -->
+<div style="padding: 15px;">
+    <fieldset class="layui-elem-field layui-field-title mt15">
+        <legend>Banner管理</legend>
+    </fieldset>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">banner详情</label>
+        <div class="layui-input-block">
+            <input type="text" name="desc" id="desc" lay-verify="desc" autocomplete="off"  class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-upload">
+        <button type="button" class="layui-btn" id="test2">上传图片</button>
+        <div class="layui-upload-list">
+            <img class="layui-upload-img" id="demo1">
+            <p id="demoText"></p>
+        </div>
+    </div>
+
+    <a href="javascript:;"  id="insert" class="layui-btn layui-btn-normal" >添加</a>
+    <button class="layui-btn layui-btn-danger refresh">删除</button>
+    <hr class="layui-bg-orange">
+</div>
+
+
+<div class="layui-carousel" id="test1">
+    <div carousel-item>
+        {volist name="banner" id="vo"}
+        <div><img src="__STATIC__/{$vo.image}" alt="{$vo.desc}"></div>
+        {/volist}
+    </div>
+</div>
+<!-- 条目中可以是任意内容，如：<img src=""> -->
+
+<script>
+    var uploadImgUrl;
+    layui.use(['carousel','layer','jquery','upload'], function(){
+        var carousel = layui.carousel,
+            $ = layui.jquery,
+            layer = layui.layer,
+            upload = layui.upload;
+        //建造实例
+        carousel.render({
+            elem: '#test1'
+            ,width: '60%' //设置容器宽度
+            ,arrow: 'hover' //始终显示箭头
+            //,anim: 'updown' //切换动画方式
+        });
+
+        //普通图片上传
+        var uploadInst = upload.render({
+            elem: '#test2'
+            ,url: '/admin/article/upload/'
+            ,before: function(obj){
+                //预读本地文件示例，不支持ie8
+                obj.preview(function(index, file, result){
+                    $('#demo1').attr('src', result); //图片链接（base64）
+                });
+            }
+            ,done: function(res){
+                //如果上传失败
+                if(res.state  == 1){
+                    uploadImgUrl = res.info;
+                    return layer.msg('上传成功');
+                }
+                return layer.msg('上传失败')
+                //上传成功
+            }
+            ,error: function(){
+                //演示失败状态，并实现重传
+                var demoText = $('#demoText');
+                demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-mini demo-reload">重试</a>');
+                demoText.find('.demo-reload').on('click', function(){
+                    uploadInst.upload();
+                });
+            }
+        });
+
+        $(document).on('click','#insert',function () {
+            var desc = $("#desc").val();
+            if (!desc || ! uploadImgUrl) {
+                layer.msg('请提交上传信息');
+                return false;
+            }
+
+            var data = {
+                desc  :   desc,
+                image   :   uploadImgUrl
+            };
+            $.post('/admin/banner/add',data,function (res) {
+                res = JSON.parse(res);
+                if (res.state == 1) {
+                    layer.msg('添加成功');
+                    setTimeout(function () {
+                        window.location.reload();
+                    },500);
+                    return false;
+                }
+                layer.msg('添加失败');
+            });
+        });
+    });
+</script>
+
