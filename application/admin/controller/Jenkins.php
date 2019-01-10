@@ -12,5 +12,10 @@ use think\Controller;
 
 class Jenkins extends Controller
 {
+	
+	public function index()
+	{
+		return true;
+	}
 
 }
