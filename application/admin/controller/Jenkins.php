@@ -15,6 +15,7 @@ class Jenkins extends Controller
 	
 	public function index()
 	{
+		$res = 'jenkins';
 		return true;
 	}
 
